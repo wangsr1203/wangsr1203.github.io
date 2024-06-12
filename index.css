@@ -1,0 +1,1090 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: url(../images/MacBook\ Air\ -\ 1.png) center 0 / cover;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* 导航开始 */
+
+.shortcut{
+    height: 177px;
+}
+
+.shortcut .nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 177px;
+}
+
+.shortcut .nav1 .right ul{
+    display: flex;
+    font-size: 20px;
+    color: #B49470;
+    font-weight:400;
+}
+
+.shortcut .nav1 .right ul li{
+    margin-left: 74px;
+}
+
+.shortcut .nav1 img{
+    width: 363px;
+    height: 75px;
+}
+
+/* 未写悬停变化！！！！！！！！！！*/
+
+/* 导航结束 */
+
+
+/* 主页开始 */
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 1070px;
+    overflow: hidden;
+}
+
+
+.home .bac-img{
+    position: absolute;
+    top: 222px;
+    height: 612px;
+    background-size:contain;
+}
+
+.home .box1{
+    position: absolute;
+    width: 100%;
+    height: 612px;
+    background-color: rgba(243,190,131,0.3);
+}
+
+.home .bac-img img{
+    height: 612px;
+    width: 1920px;
+}
+
+.home .wrapper .font{
+    width: 1200px;
+    height: 1070px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home .wrapper .font .left{
+    height: 192px;
+    width: 383px;
+    color: #895E2A;
+    line-height: 2;
+}
+
+.home .wrapper .font .left p{
+    font-weight:400;
+}
+
+.home .wrapper .font .big-img{
+    height: 1069px;
+}
+
+
+/* 主页结束 */
+
+/* 百万大移民 */
+
+.bwdym{
+    background-image: url(../images/area1.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    background-size: 900px 500px;
+    margin: 0 auto;
+    height: 588px;
+
+    margin-bottom: 150px;
+}
+
+.bwdym .wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+}
+
+.bwdym .wrapper .left{
+    width: 500px;
+    height: 252px;
+    background-color: transparent;
+    margin-right: 50px;
+}
+.bwdym .wrapper .right{
+    width: 527px;
+    height: 252px;
+    /* background-color: aqua; */
+}
+
+.bwdym .right ul li{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.bwdym .right ul li:nth-child(1){
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* 百万大移民结束 */
+
+
+/* 忆往昔开始 */
+
+.ywx{
+    height: 403px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 200px;
+}
+.ywx .right ul{
+    display: flex;
+}
+
+.heng{
+    width: 20px;
+    height: 3px;
+    background-color: #6E3D06;
+    margin-bottom: 10px;
+}
+
+.ywx .left .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.ywx .left .bottom{
+    width: 600px;
+}
+
+.ywx .left .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.ywx .right .Carousel img{
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 58px;
+    border-radius: 4px;
+}
+
+.ywx .right .Carousel li:nth-child(2) img{
+    width: 248px;
+    height: 342px;
+    margin-top: 0px;
+}
+
+.ywx .right .Carousel p{
+    position: absolute;
+    font-size: 20px;
+    line-height: 2;
+    color: #fff;
+    opacity: 0.7;
+    /* top: 200px; */
+    left: 70px;
+    bottom: 60px;
+}
+
+.ywx .right .Carousel li{
+    position: relative;
+}
+
+.ywx .right .Carousel li:nth-child(2) p{
+    font-size: 30px;
+    color: #fff;
+    opacity: 1;
+    bottom: 20px;
+    left: 80px;
+}
+
+.ywx .right .icon{
+    display: flex;
+    position: absolute;
+    right: 84px;
+    margin-top: 16px;
+}
+
+.ywx .right .icon li{
+    margin-right: 10px;
+}    
+
+/* 忆往昔结束 */
+
+/* 被迫踏上移民之路开始 */
+.bptsymzl .wrapper{
+    height: 510px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.bptsymzl .text{
+    width: 488px;
+}
+
+.bptsymzl .text .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.bptsymzl .text .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.bptsymzl .circle{
+    display: grid;
+    width: 614px;
+    /* background-color:aqua */
+}
+
+
+.bptsymzl .pannel-circle1{
+    display: flex;
+    width: 614px;
+    /* background-color:aquamarine */
+}
+
+
+.bptsymzl .pannel-circle1 .circlepacking1{
+    width: 160px;
+    height: 232px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle1 .circlepacking1 .chart1{
+    width: 157px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle1 .circlepacking2{
+    width: 160px;
+    height: 232px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle1 .circlepacking2 .chart2{
+    width: 157px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle1 .circlepacking3{
+    width: 160px;
+    height: 232px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle1 .circlepacking3 .chart3{
+    width: 157px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle2{
+    display: flex;
+    width: 614px;
+    /* background-color:green */
+}
+
+.bptsymzl .pannel-circle2 .circlepacking4{
+    width: 160px;
+    height: 232px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle2 .circlepacking4 .chart4{
+    width: 157px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle2 .circlepacking5{
+    width: 160px;
+    height: 232px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle2 .circlepacking5 .chart5{
+    width: 157px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle2 .circlepacking6{
+    width: 160px;
+    height: 232px;
+    /* background-color: pink; */
+}
+
+.bptsymzl .pannel-circle2 .circlepacking6 .chart6{
+    width: 157px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+
+.bptsymzl .circlepacking1{
+    margin-right: 72px;
+}
+
+.bptsymzl .circlepacking2{
+    margin-right: 72px;
+}
+
+.bptsymzl .circlepacking4{
+    margin-right: 72px;
+}
+
+.bptsymzl .circlepacking5{
+    margin-right: 72px;
+}
+
+
+/* .bptsymzl .chart4{
+    margin-right: 72px;
+}
+
+.bptsymzl .chart5{
+    margin-right: 72px;
+} */
+
+.bptsymzl .circle p{
+    margin-bottom: 30px;
+    color: #6E3D06;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 被迫踏上移民之路结束 */
+
+/* 移民长征开始 */
+.changzheng .wrapper{
+    height: 872px;
+    margin-bottom: 150px;
+}
+
+.changzheng .text .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.changzheng .text {
+    margin-bottom: 40px;
+}
+
+
+.changzheng .text .bottom{
+    width: 618px;
+}
+
+.changzheng .text .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.changzheng .wrapper .map1{
+    display: flex;
+    width: 1200px;
+    height: 715px;
+    align-items: center;
+    justify-content: center;
+}
+
+.changzheng .wrapper .map1 .chart2 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 110px;
+}
+
+.changzheng .wrapper .map1 .chart1 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 55px;
+}
+
+.changzheng .wrapper .chart{
+    display: flex;
+    width: 589px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .changzheng .wrapper .chart img{
+    width: 972px;
+    height: 715px;
+} */
+
+/* 移民长征结束 */
+
+/* 分期移民开始 */
+.fenqi {
+    height: 1212px;
+    margin-bottom: 150px;
+}
+
+
+.fenqi .text{
+    margin-bottom: 164px;
+}
+
+
+.fenqi .text .top p{
+    font-size: 26px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.fenqi .text .bottom{
+    width: 618px;
+}
+
+.fenqi .text .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.fenqi .panel-all{
+    width: 1034px;
+    height: 910px;
+    margin: 0 auto;
+}
+
+.fenqi .panel-all .select{
+    position: relative;
+    width: 100%;
+    height: 96px;
+    margin-bottom: 80px;
+}
+
+
+.fenqi .panel-all .select .heng{
+    color: #6E3D06;
+    opacity: 0.38;
+    width: 1034px;
+    height: 1.4px;
+}
+
+
+.fenqi .panel-all .chart{
+    width: 100%;
+    height: 735px;
+}
+
+
+.fenqi .panel-all .part{
+    top: -4px;
+    position: absolute;
+    display: flex;
+    padding: 0 94px;
+    width: 1034px;
+}
+
+
+.fenqi .panel-all .part1{
+    position: relative;
+    width: 64px;
+    margin-left: 130px;
+    transition: all 0.2s linear;
+}
+
+.fenqi .panel-all .part1 .yuan{
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #FC4500;
+    opacity: 0.8;
+    left: 28px;
+}
+
+.fenqi .panel-all .part1 p{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #383838;
+    opacity: 0.8;
+}
+
+.fenqi .panel-all .part .part1:nth-child(1){
+    margin-left: 0;
+}
+
+.fenqi .panel-all .part1 .yuan2{
+    position: absolute;
+    display: none;
+    width: 44px;
+    height: 44px;
+    background-color: #E88C24;
+    opacity: 0.4;
+    border-radius: 50%;
+    top: -18px;
+    right: 11px;
+}
+
+.fenqi .panel-all .part1:hover>.yuan2{
+    display: block;
+}
+
+
+.fenqi .panel-all .part1:hover p{
+    color: #000;
+}
+
+.fenqi .panel-all .chart{
+    display: flex;
+    width: 1004px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.fenqi .panel-all .chart .chart-bar{
+    width: 1000px;
+    height: 300px;
+}
+
+.fenqi .panel-all .chart .bar p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 100px;
+}
+
+.fenqi .panel-all .chart2{
+    display: flex;
+    width: 1000px;
+    height: 322px;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.fenqi .panel-all .chart2 .line{
+    width: 400px;
+    height: 320px
+}
+
+.fenqi .panel-all .chart2 .line p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 30px;
+}
+
+.fenqi .panel-all .chart2 .bar2{
+    width: 400px;
+    height: 320px
+}
+
+.fenqi .panel-all .chart2 .bar2 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 4px;
+    margin-bottom: 20px;
+}
+
+.fenqi .panel-all .chart2 .chart-line{
+    width: 400px;
+    height: 320px;
+}
+
+.fenqi .panel-all .chart2 .chart-bar2{
+    width: 400px;
+    height: 320px;
+}
+
+/* 分期移民结束 */
+
+/* 外迁移民开始 */
+.waiqian{
+    display: flex;
+    padding: 0;
+    margin-bottom: 150px;
+}
+
+.waiqian .text .top p{
+    font-size: 26px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.waiqian .text .bottom{
+    width: 300px;
+}
+
+.waiqian .text .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.waiqian .left .yiminchart{
+    width: 853px;
+    height: 676px;
+    /* margin-bottom: 50px; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.waiqian .left .yimin1{
+    width: 679px;
+    height: 556px;
+}
+
+
+.waiqian .text{
+    margin-right: 0;
+    margin-top: 120px;
+}
+
+
+.waiqian .left{
+    position: relative;
+}
+
+
+.waiqian .left .select{
+    display: flex;
+    position: absolute;
+    width: 723px;
+    bottom: 80px;
+    left: 250px;
+    align-items: center;
+}
+
+.waiqian .left .select .part1 p{
+
+    font-size: 14px;
+    margin-left: 4px;
+
+}
+
+.waiqian .left .select .part1 .yuan{
+    width: 14px;
+    height: 14px;
+    background-color: #EACAA7;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.waiqian .left .select .part1{
+    position: absolute;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+/* 外迁移民结束 */
+
+/* 投资开始 */
+
+.touzi{
+    height: 1350px;
+    margin-bottom: 150px;
+}
+
+.touzi .text .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.touzi .text .bottom{
+    width: 618px;
+}
+
+.touzi .text .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.touzi .panel-bubble{
+    position: relative;
+    width: 1192px;
+    height: 967px;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 100px;
+}
+
+.touzi .panel-bubble .bubble{
+    width: 990px;
+    height: 1000px;
+    position: absolute;            
+    left: 52%;            
+    top: 55%;            
+    transform: translate(-50%, -50%);
+}
+
+.touzi .panel-bubble p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 130px;
+}
+
+
+/* 大事记开始 */
+
+.thing{
+    position: relative;
+    width: 1200px;
+    height: 1170px;
+    margin-bottom: 10px;
+}
+.thing .text .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.thing .text2 .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.thing .text2 .bottom{
+    width: 603px;
+    margin-bottom: 100px;
+}
+
+.thing .text2 .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.thing .tree1{
+    position: absolute;
+    width: 910px;
+    width: 821px;
+    left: 145px;
+    /* margin-bottom: 150px; */
+}
+
+.thing .tree1 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 4px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+
+.thing .tree1 .treechart{
+    width: 910px;
+    height: 821px;
+}
+
+
+/* 移民生活 */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 240px;
+}
+
+.hero .chart2{
+    position: relative;
+    /* background-color: pink; */
+    width: 511px;
+    height: 600px;
+    margin-left: 72px;
+    /* margin-right: 72px; */
+}
+
+.hero .text2 .top p{
+    font-size: 30px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.hero .text2 .bottom{
+    width: 540px;
+    margin-bottom: 124px;
+}
+
+.hero .text2 .bottom p{
+    font-size: 14px;
+    line-height: 2;
+    color: #646464;
+}
+
+.hero .chart2 {
+    width: 496px;
+    height: 473px;
+    margin-top: 60px;
+}
+
+.hero .chart2 .life{
+    margin-top: 6px;
+    width: 496px;
+    height: 500px;
+    /* background-color: #FC4500; */
+}
+
+.hero .chart2 p{
+    margin-top: 72px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    margin-left: 0px;
+}
+
+/* .hero .circle1{
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+
+.hero .circle1 .yuan{
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    background-color: #F2D8BA;
+    border-color: #B39372;
+    border:1px  solid #B39372;
+    border-radius: 50%;
+    top: 160px;
+    left: 200px;
+}
+
+.hero img{
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 166px;
+    left: 206px;
+}
+
+.hero .slide{
+    position: absolute;
+    display: flex;
+    width: 190px;
+    height: 163px;
+    background-color: #FFF3E6;
+    border: 1px solid#B39576;
+    border-radius: 20px;
+    left: 329px;
+    top: 266px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.hero .slide p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 2;
+}
+
+.hero .big1:hover .slide{
+    display: block;
+}
+
+.hero .circle1:hover{
+    scale: 1.05;
+}
+
+.hero .big1{
+    transition: all 0.2s linear;
+} */
+
+
+.footer{
+    height: 530px;
+    background-color: #EDE3D4;
+}
+
+.service{
+    height: 178px;
+    border-bottom: #E8E8E8;
+    padding: 80px 0;
+}
+
+.help{
+    height: 300px;
+    /* background-color: pink; */
+    /* 间距 */
+    justify-content: space-between;
+    display: flex;
+    padding-top: 80px;
+}
+
+/* 服务区域 */
+.service ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service li{
+    width: 190px;
+    height: 58px;
+    /* background-color: pink; */
+    display: flex;
+}
+
+.service li h5{
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprite.png);
+    margin-right: 20px;
+}
+
+.service li p{
+    font-size: 14px;
+    /* 和图片水平居中对齐 */
+    line-height: 58px;
+}
+
+.service li:nth-child(2) h5{
+    /* 精灵图选图片 */
+    background-position: 0 -58px;
+}
+
+/* 帮助区域left */
+
+.help .left{
+    display: flex;
+}
+
+.help .left dl{
+    margin-right: 140px;
+}
+
+/* 规范一下 */
+.help .left dl:last-child{
+    margin-right: 0;
+}
+
+
+.help .left dt{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.help .left dd{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.help .left a{
+    color: #969696;
+}
+
+.help .left .iconfont{
+    color: #5EB69C;
+    margin-left: 5px;
+}
+
+/* 帮助区域right */
+
+.help .right ul {
+    display: flex;
+}
+
+.help .right li:first-child{
+    margin-right: 55px;
+}
+
+.help .right .pic{
+    width: 106px;
+    height: 106x;
+    margin-bottom: 12px;
+}
+
+.help .right p{
+    color: #969696;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 版权区域 */
+
+.copyright{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.copyright p{
+    margin-bottom: 10px;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+
+.copyright p a{
+    color: #a1a1a1;
+    margin: 0 10px;
+}
